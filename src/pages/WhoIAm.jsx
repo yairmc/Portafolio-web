@@ -41,3 +41,5 @@ const WhoIAm = () => {
     </div>
   )
 }
+
+export default WhoIAm;

@@ -3,7 +3,8 @@ import { Routes, Route } from 'react-router-dom'
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 
-import Whoiam from "./pages/WhoIAm"
+import WhoIAm from "./pages/WhoIAm"
+
 import SoftSkills from "./pages/SoftSkills"
 import Projects from "./pages/Projects"
 
@@ -22,7 +23,7 @@ function App() {
         
         <div>
             <Routes>
-              <Route path="/" element={<Whoiam />} />
+              <Route path="/" element={<WhoIAm />} />
               <Route path="/softSkills" element={<SoftSkills />} />
               <Route path="/projects" element={<Projects />} />
             </Routes>

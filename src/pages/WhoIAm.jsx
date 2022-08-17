@@ -9,7 +9,7 @@ import w5 from '../img/w5.png'
 const WhoIAm = () => {
   return (
     <div className={style.container}>
-      
+
       <div className={style.imageCarrousel}>
         <ul>
           <li><img src={w1} alt="imagenPersonal" /></li>
@@ -27,7 +27,7 @@ const WhoIAm = () => {
           <br />
           <br />
           Thanks to my specialized training, I believe that I can add value and continue to develop professionally in a company that
-          matches my values ​​and expectations.
+          matches my values and expectations.
           <br />
           <br />
           As an organized and highly motivated person, I am capable of adapting to any circumstance
@@ -37,7 +37,7 @@ const WhoIAm = () => {
           My main objective is to develop myself professionally and evolve in my sector, so I look for opportunities that allow me to do so, while trying to fully align myself with the company's objectives.
         </h1>
       </div>
-      
+
     </div>
   )
 }

@@ -19,3 +19,21 @@
     font-size: 1rem;
     padding-right: 3rem;
 }
+
+@media (max-width: 620px) {
+    .conteiner {
+        height: 4rem;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        width: 4rem;
+        height: 4rem;
+        padding-left: 1rem;
+    }
+    
+    .contact {
+        font-size: .8rem;
+        padding-right: 3rem;
+    }
+}

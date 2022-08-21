@@ -4,7 +4,8 @@
     background-size: cover;
     height: 80vh;
     display:grid;
-    padding-left: 5rem;
+    justify-content: center;
+    padding: 0 2rem;
 }
 .tecnical{
     display:flex;
@@ -36,22 +37,24 @@
     padding-top: 1rem;
 }
 
-@media (max-width: 1040px){
+@media (max-width: 1200px){
     .tecnical{
-        font-size: .5rem;
+        font-size: 1rem;
     }
     .tskills{
         display:flex;
         flex-direction:column;
+        font-size: .8rem;
     }
     .tskills img{
         padding-left: 3rem;
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
+   
 }
 
-@media (max-width: 767px){
+@media (max-width: 900px){
     .tecnical{
         display:flex;
         flex-direction:column;
@@ -68,21 +71,18 @@
     }
     .tskills img{
         padding-left: 3rem;
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.8rem;
+        height: 1.8rem;
     }
 }
 
-@media (max-width: 767px){
-    .tecnical{
-        display:flex;
-        flex-direction:column;
-        gap:auto;
-        font-size: .5rem;
-        padding: 0;
-        margin: 0;
+@media (max-width: 630px){
+    .conteiner{
+        padding: .5rem;
     }
+    
     .tecnicalInfo{
+        justify-content: center;
         align-items: center;
         font-size: .9rem;
     }
@@ -92,12 +92,16 @@
         height: 3rem;
     }
     .tskills{
-        display:flex;
-        flex-direction:column;
+        font-size: .6rem;
     }
     .tskills img{
         padding-left: 3rem;
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+    .tskills div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: auto;
     }
 }

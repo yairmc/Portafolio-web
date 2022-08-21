@@ -35,6 +35,9 @@ const WhoIAm = () => {
           <br />
           <br />
           My main objective is to develop myself professionally and evolve in my sector, so I look for opportunities that allow me to do so, while trying to fully align myself with the company's objectives.
+          <br />
+          <br />
+          I am currently studying software engineering at the Sonora Technological Institute, where I am professionally learning my developer skills.
         </h1>
       </div>
 

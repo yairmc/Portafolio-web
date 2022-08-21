@@ -10,6 +10,7 @@ import html from '../img/skills/html-5.png'
 import js from '../img/skills/js.png'
 import node from '../img/skills/node-js.png'
 import unity from '../img/skills/unity.png'
+ import git from '../img/skills/github.png'
 
 import attitude from '../img/sskills/attitude.png'
 import audit from '../img/sskills/audit.png'
@@ -39,6 +40,7 @@ const SoftSkills = () => {
                         <div><img src={unity} alt="unity" /><h1>Unity</h1></div>
                         <div><img src={android} alt="android" /><h1>Android Studio</h1></div>
                         <div><img src={node} alt="node" /><h1>Node</h1></div>
+                        <div><img src={git} alt="node" /><h1>Git</h1></div>
                     </div>
                 </div>
 

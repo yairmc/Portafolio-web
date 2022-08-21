@@ -1,13 +1,21 @@
-
-
 .imagesContainer {
-    display: flex;
-    gap: 1rem;
-    padding: 0 1rem ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-image: url('../img/fondo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 37rem;
+    overflow-y: scroll;
+    padding: 1rem;
+}
+.imagesContainerdiv{
+    text-align: center;
+    padding-top: 1rem;
 }
 
 .imagesContainer img {
-    width: 22rem;
+    width: 24rem;
     height: 15rem;
     padding-bottom: 1rem;
     border-radius: 2rem;
@@ -35,66 +43,75 @@
     color: var(--text)
 }
 
-@media (max-width:1044px) {
-    .imagesContainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+@media (max-width:1200px) {
+
     .imagesContainer img {
-        width: 15rem;
-        height: 10rem;
+        width: 18rem;
+        height: 12rem;
     }
-    .imagesContainer h1{
-        font-size: 1.4rem;
+
+    .imagesContainer h1 {
+        font-size: 2rem;
     }
-    .imagesContainer a{
-        font-size: .8rem;
+
+    .imagesContainer a {
+        font-size: 1.3rem;
     }
-    .imagesContainer p{
-        font-size:.7rem;
+
+    .imagesContainer p {
+        font-size: .9rem;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:900px) {
     .imagesContainer {
-        display:grid;
-        grid-template-columns: repeat(2, 1fr)
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
     }
+
     .imagesContainer img {
         align-items: center;
         width: 15rem;
         height: 10rem;
     }
-    .imagesContainer h1{
+
+    .imagesContainer h1 {
         font-size: 1.4rem;
     }
-    .imagesContainer a{
+
+    .imagesContainer a {
         font-size: .8rem;
     }
-    .imagesContainer p{
-        font-size:.7rem;
+
+    .imagesContainer p {
+        font-size: .7rem;
     }
 }
-@media (max-width:530px) {
+
+@media (max-width:630px) {
     .imagesContainer {
-        display:grid;
         grid-template-columns: repeat(1, 1fr);
-        align-items: center;
+        padding: 3rem;
     }
+
     .imagesContainer img {
         width: 15rem;
         height: 10rem;
     }
-    .imagesContainer h1{
+
+    .imagesContainer h1 {
         font-size: 1.4rem;
     }
-    .imagesContainer a{
+
+    .imagesContainer a {
         font-size: .8rem;
     }
-    .imagesContainer p{
-        font-size:.7rem;
+
+    .imagesContainer p {
+        font-size: .7rem;
     }
+
     .imagesContainerdiv {
         text-align: center;
     }

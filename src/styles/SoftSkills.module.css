@@ -1,23 +1,21 @@
 .conteiner{
-    display:flex;
-    flex-direction:column;
-    padding: 0 5rem 1rem 5rem;
-    margin: auto;
-    gap: auto;
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display:grid;
+    padding-left: 5rem;
 }
 .tecnical{
     display:flex;
     flex-direction:row;
     align-items:center;
-    padding-top: 3rem;
-    gap: 1rem;
     color: var(--text);
     font-size: .8rem;    
 }
 .tecnicalInfo{
     font-size: 1rem;
-    width: auto;
-    
+    width: 15rem;
 }
 
 .tecnicalInfo img{
@@ -40,14 +38,7 @@
 
 @media (max-width: 1040px){
     .tecnical{
-        display:flex;
-        flex-direction:row;
-        gap:auto;
         font-size: .5rem;
-        padding: 0;
-    }
-    .tecnicalInfo{
-        align-items: center;
     }
     .tskills{
         display:flex;

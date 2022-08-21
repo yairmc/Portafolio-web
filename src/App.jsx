@@ -17,11 +17,11 @@ function App() {
   return (
       <div className={style.conteiner}>
 
-        <div>
+        <div className={style.header}>
           <Header />
         </div>
         
-        <div>
+        <div className={style.body}>
             <Routes>
               <Route path="/" element={<WhoIAm />} />
               <Route path="/softSkills" element={<SoftSkills />} />
@@ -29,7 +29,7 @@ function App() {
             </Routes>
         </div>
 
-        <div>
+        <div className={style.footer}>
           <Footer />
         </div>
       

@@ -1,5 +1,11 @@
 .container {
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .personalInformation {
@@ -10,12 +16,10 @@
     border: 5px solid var(--primary);
     background-color: var(--primary);
     border-radius: 2rem;
-    height: 100%;
 }
 
 .imageCarrousel {
     overflow: hidden;
-
     border-radius: 2rem;
 }
 

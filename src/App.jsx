@@ -3,12 +3,13 @@ import { Routes, Route } from 'react-router-dom'
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 
+import Welcome from './pages/Welcome'
 import WhoIAm from "./pages/WhoIAm"
-
 import SoftSkills from "./pages/SoftSkills"
 import Projects from "./pages/Projects"
 
 import style from './App.module.css'
+
 
 
 
@@ -23,7 +24,8 @@ function App() {
         
         <div className={style.body}>
             <Routes>
-              <Route path="/" element={<WhoIAm />} />
+              <Route path="/" element={<Welcome />} />
+              <Route path="/whoiam" element={<WhoIAm />} />
               <Route path="/softSkills" element={<SoftSkills />} />
               <Route path="/projects" element={<Projects />} />
             </Routes>

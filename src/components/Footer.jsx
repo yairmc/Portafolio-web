@@ -6,7 +6,6 @@ const Footer = () => {
   return (
 
     <div className={style.conteiner}>
-      <img className={style.logo} src={logo} alt="logo" />
       <div>
               <h1 className={style.contact}>Contact to </h1>
               <h2 className={style.contact}> yair_mc@hotmail.com </h2>

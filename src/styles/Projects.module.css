@@ -1,10 +1,6 @@
 .imagesContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-image: url('../img/fondo.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 37rem;
     overflow-y: scroll;
     padding: 1rem;

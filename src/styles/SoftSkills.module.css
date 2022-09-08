@@ -1,7 +1,4 @@
 .conteiner{
-    background-image: url('../img/fondo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 80vh;
     display:grid;
     justify-content: center;

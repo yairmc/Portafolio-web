@@ -17,12 +17,24 @@ img {
     width: 2.5rem;
     height: 2.5rem;
 
+
 }
 
 .icon {
     display: flex;
     justify-content: space-between;
-    padding: .6rem;
+    padding-top: 20px;
+    margin: 0 15px;
+}
+
+.icon a {
+    transition: .5s;
+
+}
+
+.icon a:hover {
+    transform: translateY(-10px);
+
 }
 
 
@@ -37,21 +49,25 @@ img {
 
 
 @media (max-width: 690px) {
-    .conteiner{
+    .conteiner {
         display: grid;
         align-items: center;
         text-align: center;
-        height: 10rem;
+        height: 9rem;
     }
+
     .info {
         font-size: .7rem;
+        padding: 0;
 
     }
+
     img {
         width: 2rem;
         height: 2rem;
     }
-    .icon{
+
+    .icon {
         padding: .2rem;
     }
 }

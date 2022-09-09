@@ -22,7 +22,7 @@ function App() {
           <Header />
         </div>
         
-        <div className={style.body}>
+        <div>
             <Routes>
               <Route path="/" element={<Welcome />} />
               <Route path="/whoiam" element={<WhoIAm />} />

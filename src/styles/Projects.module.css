@@ -1,9 +1,8 @@
 .imagesContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height: 37rem;
+    max-height: 45rem;
     overflow-y: scroll;
-    padding: 1rem;
 }
 .imagesContainerdiv{
     text-align: center;
@@ -85,15 +84,16 @@
     }
 }
 
-@media (max-width:630px) {
+@media (max-width:690px) {
     .imagesContainer {
         grid-template-columns: repeat(1, 1fr);
-        padding: 2rem;
+        padding: 2rem 0;
+        max-height: 23rem;
     }
 
     .imagesContainer img {
-        width: 15rem;
-        height: 10rem;
+        width: 20rem;
+        height: 15rem;
     }
 
     .imagesContainer h1 {

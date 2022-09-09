@@ -1,8 +1,7 @@
 .conteiner{
-    height: 80vh;
     display:grid;
     justify-content: center;
-    padding: 0 2rem;
+    gap: 5rem;
 }
 .tecnical{
     display:flex;
@@ -35,12 +34,10 @@
 }
 
 @media (max-width: 1200px){
-    .tecnical{
-        font-size: 1rem;
+    .conteiner{
+       margin-left: 2rem;
     }
     .tskills{
-        display:flex;
-        flex-direction:column;
         font-size: .8rem;
     }
     .tskills img{
@@ -51,13 +48,13 @@
    
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
     .tecnical{
         display:flex;
         flex-direction:column;
         gap:auto;
         font-size: .5rem;
-        padding: 0;
+        margin-right: 5rem;
     }
     .tecnicalInfo{
         align-items: center;
@@ -73,15 +70,14 @@
     }
 }
 
-@media (max-width: 630px){
+@media (max-width: 690px){
     .conteiner{
-        padding: .5rem;
+        gap: 2rem;
+        margin-right: 1rem;
     }
-    
     .tecnicalInfo{
-        justify-content: center;
-        align-items: center;
         font-size: .9rem;
+        margin-left: 5rem
     }
     .tecnicalInfo img{
         padding-left: 3rem;
@@ -99,6 +95,6 @@
     .tskills div{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: auto;
+        padding-top: .5rem;
     }
 }

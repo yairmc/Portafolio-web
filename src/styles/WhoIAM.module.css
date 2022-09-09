@@ -1,30 +1,27 @@
 .container {
-    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 5rem;
-
+    gap: 1rem;
 }
 
 .personalInformation {
     padding: 1rem;
-    margin:auto 1rem ;
     color: var(--text);
-    font-size: .6rem;
-    border: 5px solid var(--primary);
-    background-color: var(--primary);
+    font-size: .7rem;
     border-radius: 2rem;
 }
 
 .imageCarrousel {
     overflow: hidden;
-    border-radius: 2rem;
-    width: 50rem;
+    border-radius: 3rem;
+    max-width: 30rem;
+    max-height: 30rem;
 }
 
 .imageCarrousel img {
-    height: 25rem;
+    height: 30rem;
 }
 
 .imageCarrousel ul {
@@ -87,34 +84,13 @@
 }
 
 
-@media (max-width: 1200px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+@media (max-width: 1270px) {
 
     .personalInformation {
-        padding: 0 2rem 0 2rem;
-        margin: 0 2rem 1rem 0;
-        color: var(--text);
         font-size: 8px;
-        margin-top: 1rem;
-    }
-
-    .imageCarrousel {
-        padding:0;
-        margin: 0 20rem;
-        width: 30rem;
-        height: 25rem;
-        overflow: hidden;
-        border-radius: 2rem;
-    }
-
-
-    
+    }    
 }
-@media (max-width: 900px) {
+@media (max-width: 930px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -123,17 +99,17 @@
 
     .personalInformation {
         padding: 0 2rem 0 2rem;
-        margin: 0 2rem 1rem 0;
         color: var(--text);
         font-size: 7px;
         margin-top: 1rem;
+        width: 100%;
     }
 
     .imageCarrousel {
         padding:0;
         margin: 0 20rem;
-        width: 30rem;
-        height: 25rem;
+        width: 25rem;
+        height: 20rem;
         overflow: hidden;
         border-radius: 2rem;
     }
@@ -142,28 +118,27 @@
     
 }
 
-@media (max-width: 630px) {
+@media (max-width: 690px) {
     .container {
         display: flex;
         flex-direction: column;
-        padding: .5rem 0;
     }
 
     .personalInformation {
         padding: 0 1rem;
         margin:1rem;
         color: var(--text);
-        font-size: 5px;
     }
 
     .imageCarrousel {
         padding:0;
         margin: 0 2rem 0 2rem;
         width: 20rem;
-        height: 20rem;
-        overflow: hidden;
+        height: 15rem;
+    }
 
-        border-radius: 2rem;
+    .imageCarrousel img{
+        height: 20rem;
     }
 
 }

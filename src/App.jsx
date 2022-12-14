@@ -10,9 +10,6 @@ import Projects from "./pages/Projects"
 
 import style from './App.module.css'
 
-
-
-
 function App() {
 
   return (

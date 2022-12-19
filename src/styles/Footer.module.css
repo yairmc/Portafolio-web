@@ -6,9 +6,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
-
 .conteiner, .menu {
     position: relative;
     display: flex;

@@ -1,13 +1,13 @@
 :root {
-    --secundary: #80558C;
-    --primary: #3586ff;
+    --secundary: #252525;
+    --primary: #1a4585;
     --text: #fff;
-    --texth: #fcc110;
+    --text2: #fcc110;
 }
 
 html {
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-background-color: #333;
+font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--secundary);
 }
 
 h1,

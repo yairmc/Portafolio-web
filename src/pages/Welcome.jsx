@@ -8,12 +8,13 @@ const Welcome = () => {
     <main>
       <div className={style.card}>
         <div className={style.card_logo}>
+          <h1>Ricardo Yair Martinez Vazquez</h1>
           <img src={yo} alt="imagen" className={style.img} />
-          <h1>Yair Martinez</h1>
-          <article>
+          
+          <p>
             Web developer expert in frontend and basic knowledge in backend and design.
             2 years of experience support me.
-          </article>
+          </p>
         </div>
       </div>
     </main>

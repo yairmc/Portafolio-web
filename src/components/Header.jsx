@@ -5,8 +5,7 @@ const Tabs = () => {
     return (
         <div className={style.conteiner}>
             <div className={style.info}>
-                <h1>Yair Martinez</h1>
-                <h2>Front-end Developer</h2>
+                <h1>Front-end Developer</h1>
             </div>
 
             <div >

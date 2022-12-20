@@ -1,10 +1,10 @@
 import React from 'react'
 import style from '../styles/WhoIAM.module.css'
-import w1 from '../img/w1.jpg'
-import w2 from '../img/w2.png'
-import w3 from '../img/w3.png'
-import w4 from '../img/w4.jpg'
-import w5 from '../img/w5.png'
+import w1 from '../img/whoiam/w1.jpg'
+import w2 from '../img/whoiam/w2.png'
+import w3 from '../img/whoiam/w3.png'
+import w4 from '../img/whoiam/w4.jpg'
+import w5 from '../img/whoiam/w5.png'
 
 const WhoIAm = () => {
   return (

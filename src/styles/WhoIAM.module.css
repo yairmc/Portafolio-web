@@ -1,16 +1,10 @@
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 0 5rem;
     gap: 1rem;
-}
 
-.personalInformation {
-    padding: 1rem;
-    color: var(--text);
-    font-size: .7rem;
-    border-radius: 2rem;
 }
 
 .imageCarrousel {
@@ -39,6 +33,64 @@
 
 .imageCarrousel img {
     width: 100%;
+}
+
+.personalInformation {
+    position: absolute;
+    left: 40%;
+    width: 50%;
+    height: 60%;
+    background: var(--secundary);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-size: .6rem;
+
+}
+
+.personalInformation h1 {
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #252525;
+    flex-direction: column;
+    z-index: 1;
+    color: #fff;
+}
+
+.personalInformation::after {
+    content: '';
+    position: absolute;
+    width: 30rem;
+    height: 100rem;
+    background-image: conic-gradient(transparent, transparent, transparent, #1a4585);
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+
+}
+
+.personalInformation::before {
+    content: '';
+    position: absolute;
+    width: 30rem;
+    height: 100rem;
+    background-image: conic-gradient(transparent, transparent, transparent, #1a4585);
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes slide {
@@ -84,62 +136,41 @@
 }
 
 
-@media (max-width: 1270px) {
+@media (max-width: 1080px) {
 
     .personalInformation {
+        left: 50%;
         font-size: 8px;
-    }    
-}
-@media (max-width: 930px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
-
-    .personalInformation {
-        padding: 0 2rem 0 2rem;
-        color: var(--text);
-        font-size: 7px;
-        margin-top: 1rem;
-        width: 100%;
-    }
-
-    .imageCarrousel {
-        padding:0;
-        margin: 0 20rem;
-        width: 25rem;
-        height: 20rem;
-        overflow: hidden;
-        border-radius: 2rem;
-    }
-
-
-    
 }
 
 @media (max-width: 690px) {
+
     .container {
-        display: flex;
         flex-direction: column;
     }
 
-    .personalInformation {
-        padding: 0 1rem;
-        margin:1rem;
-        color: var(--text);
-    }
 
     .imageCarrousel {
-        padding:0;
+        position: absolute;
+        top: 20%;
+        padding: 0;
         margin: 0 2rem 0 2rem;
         width: 20rem;
         height: 15rem;
     }
 
-    .imageCarrousel img{
+    .imageCarrousel img {
         height: 20rem;
     }
 
+    .personalInformation {
+        bottom: 5%;
+        left: 0;
+        width: 90%;
+        height: 40%;
+        margin: 1rem;
+        color: var(--text);
+        font-size: .3rem;
+    }
 }
-

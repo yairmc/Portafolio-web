@@ -32,6 +32,7 @@
 }
 
 .card_logo p {
+    padding-top: 1rem;
     text-align: center;
     font-weight: bolder;
     font-size: 1rem;

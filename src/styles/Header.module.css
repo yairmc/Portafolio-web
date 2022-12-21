@@ -58,4 +58,8 @@
     .icon {
         padding: .2rem;
     }
+
+    .iconName{
+        font-size: .4rem;
+    }
 }

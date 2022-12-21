@@ -26,8 +26,7 @@ const WhoIAm = () => {
           a company in which I can apply all my knowledge and, at the same time, that allows me to develop professionally.
           <br />
           <br />
-          Thanks to my specialized training, I believe that I can add value and continue to develop professionally in a company that
-          matches my values and expectations.
+          Thanks to my specialized training, I can add value and continue to develop professionally in a company that matches my values ​​and expectations.
           <br />
           <br />
           As an organized and highly motivated person, I am capable of adapting to any circumstance
@@ -37,8 +36,7 @@ const WhoIAm = () => {
           My main objective is to develop myself professionally and evolve in my sector, so I look for opportunities that allow me to do so, while trying to fully align myself with the company's objectives.
           <br />
           <br />
-          I am currently studying software engineering at the Sonora Technological Institute, where I am professionally learning my developer skills.
-        </h1>
+          I like to spend time practicing new technologies, learning and developing my skills in the area.        </h1>
       </div>
 
     </div>

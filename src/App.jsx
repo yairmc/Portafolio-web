@@ -5,7 +5,7 @@ import Footer from "./components/Footer"
 
 import Welcome from './pages/Welcome'
 import WhoIAm from "./pages/WhoIAm"
-import SoftSkills from "./pages/SoftSkills"
+import Skills from "./pages/Skills"
 import Projects from "./pages/Projects"
 
 import style from './App.module.css'
@@ -23,7 +23,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Welcome />} />
               <Route path="/whoiam" element={<WhoIAm />} />
-              <Route path="/softSkills" element={<SoftSkills />} />
+              <Route path="/skills" element={<Skills />} />
               <Route path="/projects" element={<Projects />} />
             </Routes>
         </div>

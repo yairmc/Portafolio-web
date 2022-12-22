@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../styles/SoftSkills.module.css'
+import style from '../styles/Skills.module.css'
 import computer from '../img/computer.png'
 import brain from '../img/brain.png'
 
@@ -20,7 +20,7 @@ import conversation from '../img/sskills/conversation.png'
 import direction from '../img/sskills/directions.png'
 import united from '../img/sskills/united.png'
 
-const SoftSkills = () => {
+const Skills = () => {
     return (
         <div className={style.conteiner}>
             <div className={style.tecnical}>
@@ -74,4 +74,4 @@ const SoftSkills = () => {
     )
 }
 
-export default SoftSkills
+export default Skills

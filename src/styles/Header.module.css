@@ -1,44 +1,33 @@
 .conteiner {
+    position: absolute;
+    top: 0;
     display: flex;
+    align-items: center;
     width: 100%;
-    height: 6rem;
     color: var(--text);
     background: var(--primary);
-    justify-content: space-around
-}
-
-.info {
-    padding: 1rem;
-    font-size: 1rem;
-}
-
-
-img {
-    width: 2.5rem;
-    height: 2.5rem;
-
-
+    justify-content: space-around;
+    z-index: 2;
 }
 
 .icon {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
     margin: 0 15px;
+}
+
+.info h1{
+
 }
 
 .icon a {
     transition: .5s;
-
 }
 
 .icon a:hover {
     transform: translateY(-10px);
 
 }
-
-
-
 .iconName {
     display: flex;
     justify-content: space-between;
@@ -69,5 +58,9 @@ img {
 
     .icon {
         padding: .2rem;
+    }
+
+    .iconName{
+        font-size: .4rem;
     }
 }

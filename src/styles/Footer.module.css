@@ -1,17 +1,13 @@
 footer {
-    position: relative;
-    padding: 20px 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background: var(--primary);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    z-index: 1;
 }
 .conteiner, .menu {
-    position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -23,19 +19,6 @@ footer {
 
 .conteiner a:hover{
     transform: translateY(-10px);
-}
-
-.menu h1{
-    margin: 0 10px 10px 0;
-    font-size: 15px;
-    display: inline-block;
-    color: var(--text);
-    transition: .5s;
-    opacity: .60;
-}
-
-.menu h1:hover{
-    opacity: 1;
 }
 
 p{

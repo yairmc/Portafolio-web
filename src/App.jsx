@@ -5,7 +5,7 @@ import Footer from "./components/Footer"
 
 import Welcome from './pages/Welcome'
 import WhoIAm from "./pages/WhoIAm"
-import SoftSkills from "./pages/SoftSkills"
+import Skills from "./pages/Skills"
 import Projects from "./pages/Projects"
 
 import style from './App.module.css'
@@ -15,7 +15,7 @@ function App() {
   return (
       <div className={style.conteiner}>
 
-        <div className={style.header}>
+        <div >
           <Header />
         </div>
         
@@ -23,12 +23,12 @@ function App() {
             <Routes>
               <Route path="/" element={<Welcome />} />
               <Route path="/whoiam" element={<WhoIAm />} />
-              <Route path="/softSkills" element={<SoftSkills />} />
+              <Route path="/skills" element={<Skills />} />
               <Route path="/projects" element={<Projects />} />
             </Routes>
         </div>
 
-        <div className={style.footer}>
+        <div >
           <Footer />
         </div>
       

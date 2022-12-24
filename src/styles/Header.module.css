@@ -6,7 +6,8 @@
     width: 100%;
     color: var(--text);
     background: var(--primary);
-    justify-content: space-around
+    justify-content: space-around;
+    z-index: 2;
 }
 
 .icon {

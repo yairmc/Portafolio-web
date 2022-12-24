@@ -16,13 +16,14 @@ import project11 from '../img/projects/project11.png'
 
 const Projects = () => {
     return (
-        <div className={style.container}>
+        <main>
 
+        <div className={style.container}>
             <div className={style.cardContainer}>
                 <div className={style.card}>
                     <img className={style.image} src={project1} alt="Project" />
                     <a className={style.link} href="https://y-festivalmusicarock.netlify.app" target="_blank"> <h1>Rock & EDM Festival</h1> </a>
-                    <p className={style.description} > HTML, scss, JavaScript </p>
+                    <p className={style.description} > Project made whit HTML, scss, JavaScript </p>
                 </div>
             </div>
 
@@ -30,7 +31,7 @@ const Projects = () => {
                 <div className={style.card}>
                     <img className={style.image} src={project2} alt="Project" />
                     <a className={style.link} href="https://control-presupuestos-y.netlify.app" target="_blank"><h1>Control deGastos </h1></a>
-                    <p className={style.description}> React and css</p>
+                    <p className={style.description}>Project made whit React and css</p>
                 </div>
             </div>
 
@@ -38,49 +39,49 @@ const Projects = () => {
                 <div className={style.card}>
                     <img className={style.image} src={project3} alt="Project" />
                     <a className={style.link} href="https://appveterinaria-prueba-y.netlify.app" target="_blank"><h1>Veterinary</h1> </a>
-                    <p className={style.description}> React and css</p>
+                    <p className={style.description}>Project made whit React and css</p>
                 </div>
             </div>
             <div className={style.cardContainer}>
                 <div className={style.card}>
                     <img className={style.image} src={project4} alt="Project" />
-                    <a className={style.link} href="https://cotizador-criptomonedas-y.netlify.app" target="_blank"><h1>Cotizador Criptomonedas</h1> </a>
-                    <p className={style.description}> React and css</p>
+                    <a className={style.link} href="https://cotizador-criptomonedas-y.netlify.app" target="_blank"><h1>Criptomonedas</h1> </a>
+                    <p className={style.description}>Project made whit React and css</p>
                 </div>
             </div>
             <div className={style.cardContainer}>
                 <div className={style.card}>
                     <img className={style.image} src={project5} alt="Project" />
                     <a className={style.link} href="https://frontendstore-prueba02.netlify.app/" target="_blank"><h1>FRONTEND-STORE</h1> </a>
-                    <p className={style.description}> HTML and css</p>
+                    <p className={style.description}>Project made whit HTML and css</p>
                 </div>
             </div>
             <div className={style.cardContainer}>
                 <div className={style.card}>
                     <img className={style.image} src={project6} alt="Project" />
                     <a className={style.link} href="https://blogdecafe-prueba01.netlify.app/" target="_blank"><h1>Blog de Cafe</h1> </a>
-                    <p className={style.description}> HTML and css</p>
+                    <p className={style.description}>Project made whit HTML and css</p>
                 </div>
             </div>
             <div className={style.cardContainer}>
                 <div className={style.card}>
                     <img className={style.image} src={project7} alt="Project" />
                     <a className={style.link} href="https://y-html-practice.netlify.app/" target="_blank"><h1>FreeLancer</h1> </a>
-                    <p className={style.description}> React and css</p>
+                    <p className={style.description}>Project made whit React and css</p>
                 </div>
             </div>
             <div className={style.cardContainer}>
                 <div className={style.card}>
                     <img className={style.image} src={project8} alt="Project" />
                     <a className={style.link} href="https://y-translator.netlify.app/" target="_blank"><h1>Traductor Universal</h1> </a>
-                    <p className={style.description}> HTML and css</p>
+                    <p className={style.description}>Project made whit HTML and css</p>
                 </div>
             </div>
             <div className={style.cardContainer}>
                 <div className={style.card}>
                     <img className={style.image} src={project9} alt="Project" />
                     <a className={style.link} href="https://y-gifs.netlify.app/" target="_blank"><h1>Free-Gifs</h1> </a>
-                    <p className={style.description}> HTML and css</p>
+                    <p className={style.description}>Project made whit HTML and css</p>
                 </div>
             </div>
 
@@ -88,17 +89,19 @@ const Projects = () => {
                 <div className={style.card}>
                     <img className={style.image} src={project10} alt="Project" />
                     <a className={style.link} href="https://y-gifs.netlify.app/" target="_blank"><h1>Food Comunity</h1> </a>
-                    <p className={style.description}> HTML and css</p>
+                    <p className={style.description}>Project made whit HTML and css</p>
                 </div>
             </div>
             <div className={style.cardContainer}>
                 <div className={style.card}>
                     <img className={style.image} src={project11} alt="Project" />
                     <a className={style.link} href="https://y-gifs.netlify.app/" target="_blank"><h1>Pomodoro + Trello</h1> </a>
-                    <p className={style.description}> HTML and css</p>
+                    <p className={style.description}>Project made whit HTML and css</p>
                 </div>
             </div>
         </div>
+        </main>
+
     )
 }
 

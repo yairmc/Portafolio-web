@@ -1,6 +1,14 @@
+.main{
+    height: max-content;
+}
 .container {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    min-width:100%;
+    gap: 1rem;
+    margin-left: 1rem;
 }
 
 
@@ -13,8 +21,10 @@
 .link{
     text-decoration: none;
     color: var(--text2);
-    font-size: .8rem;
+    font-size: .6rem;
     font-weight: bold;
+    text-align: center;
+
 }
 
 .link:hover {
@@ -22,15 +32,15 @@
 }
 
 .description {
-    padding-top: 1rem;
+    padding-top: .5rem;
     color: var(--text);
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .cardContainer {
     position: relative;
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     background: var(--secundary);
     border-radius: 20px;
     display: flex;
@@ -125,14 +135,31 @@
     }
 }
 
-@media (max-width:1200px) {
-
-}
-
-@media (max-width:900px) {
+@media (max-width:1400px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);        
+    }
     
 }
 
+@media (max-width:900px) {
+    .cardContainer {
+        position: relative;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .link{
+        font-size: .5rem;
+    }
+}
+
 @media (max-width:690px) {
- 
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 8rem;
+        max-height: 40rem;   
+        overflow-y: scroll;
+        overflow-x:hidden;
+    }
 } 

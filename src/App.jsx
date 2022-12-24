@@ -15,7 +15,7 @@ function App() {
   return (
       <div className={style.conteiner}>
 
-        <div className={style.header}>
+        <div >
           <Header />
         </div>
         
@@ -28,7 +28,7 @@ function App() {
             </Routes>
         </div>
 
-        <div className={style.footer}>
+        <div >
           <Footer />
         </div>
       

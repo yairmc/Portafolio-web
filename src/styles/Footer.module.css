@@ -3,6 +3,7 @@ footer {
     bottom: 0;
     width: 100%;
     background: var(--primary);
+    z-index: 1;
 }
 .conteiner, .menu {
     display: flex;
